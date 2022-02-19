@@ -1,0 +1,30 @@
+.container{
+    font-family: 'Montserrat', sans-serif;
+    margin: 14%;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 70px;
+}
+
+.container button{
+    background: rgb(21, 21, 26);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(65, 64, 66);
+    padding: 20px;
+    width: 200px;
+    margin-top: 2rem;
+  }
+  
+  .container button:hover{
+    background: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
+    border-color: white;
+    font-weight: bolder;
+    transition: ease-in-out 0.3s;
+  }

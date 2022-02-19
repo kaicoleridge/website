@@ -1,0 +1,25 @@
+.navbar li{
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    display: inline-block;
+    margin: 1.7rem;
+    margin-top: 0rem;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.navbar li:hover{
+    font-size: 14px;
+    color: rgb(87, 63, 190);
+    transition: ease-in-out 0.3s;
+    text-decoration: line-through;
+}
+
+.navbar header{
+    padding: 3px 10%;
+    font-family: 'Krona One', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+

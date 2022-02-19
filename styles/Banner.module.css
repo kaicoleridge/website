@@ -1,0 +1,12 @@
+.banner p{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 14.5px;
+    padding: 0.25rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    background: #8959b3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+    text-align: center;
+}
