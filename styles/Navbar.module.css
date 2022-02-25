@@ -1,27 +1,29 @@
+.navbar *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar li{
-    color: rgb(255, 255, 255);
-    list-style-type: none;
-    display: inline-block;
-    margin: 1.7rem;
-    margin-top: 0rem;
     font-size: 12px;
+    list-style: none;
     display: inline-block;
-    text-transform: capitalize;
+    margin: 1.2rem;
+    color: white;;
 }
 
 .navbar li:hover{
-    font-size: 14px;
     color: #7050e2;
     transition: ease-in-out 0.3s;
-    text-decoration: line-through;
-    
 }
 
 .navbar header{
-    padding: 3px 10%;
-    font-family: 'Krona One', sans-serif;
     display: flex;
-    justify-content: flex-end;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 100;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 10%;
+    font-size: 1.1rem;
 }
 

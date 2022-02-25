@@ -5,25 +5,23 @@ const Navbar = () => {
         <div className={navStyle.navbar}>
             
             <header>
-
+                <a href={'/'}>
+            <h3>KAI</h3>
+            </a>
          <nav>
              <ul>
-                 <a href='/about.js'>
+                 <a href='/about'>
                  <li>about</li>
                  </a>
-
-                 <a href='/'>
+                 <a href='/projects'>
                  <li>projects</li>
                  </a>
-
                  <a href='/Old CV.pdf' download={"Old CV.pdf"}>
                  <li>resume</li>
                  </a>
-
                  <a href='mailto:kai@coleridge.me'>
                  <li>contact</li>
-                 </a>
-                
+                 </a> 
              </ul>
          </nav>
          </header>
