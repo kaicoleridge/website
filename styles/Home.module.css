@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@700&family=Poppins&family=Roboto+Slab:wght@700&display=swap');
 
 .container {
-  width: 80vw;
   padding: 0rem 2rem;
   display: flex;
   justify-content: left;
@@ -62,6 +61,4 @@
   color: #7050e2;
   transition: ease-in-out 0.3s;
 }
-
-
 

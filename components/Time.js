@@ -16,6 +16,7 @@ console.log(tz);
         }, 1000);
         return () => clearInterval(interval);
     }, []);
+    
 
     return(<div className={styles.TimeState}>{timeState} {tz}</div>);
 }
