@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-
+import TimeComponent from '../components/Time.js'
 
 
 export default function Home() {
@@ -12,19 +12,23 @@ export default function Home() {
      <title>Kai Coleridge</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
      </Head>
-
-     
-
-    
      <div className={styles.main}>
        <div className={styles.name}>
-         <h4>Hi there I'm, <span>👋</span></h4>
+         <h4>Hi there I'm,</h4>
          <h1>Kai Coleridge.</h1>
-        <h3>iOS / Web Developer ┃ CS Student </h3>
-         </div>
+        <h3>20yr old iOS/Web Developer & CS Student. </h3>
+        </div>
 
          <div className={styles.icons}>
+         
+         <li>
+         <i class="fa fa-clock-o" aria-hidden="true"></i>
+         <TimeComponent/>
+         </li>
 
+        <br></br>
+        <br></br>
+        
            <li>
              <a href="https://twitter.com/kaicoleridge">
            <i class="fa fa-twitter"></i>
@@ -57,11 +61,6 @@ export default function Home() {
            <i class="fa fa-spotify"></i>
            </a>
            </li>
-
-           <li>
-         <i class="fa fa-apple"></i>
-         </li>
-
 
            <li>
              <a href='mailto:kai@coleridge.me'>

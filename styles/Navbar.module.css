@@ -6,13 +6,15 @@
     margin-top: 0rem;
     font-size: 12px;
     display: inline-block;
+    text-transform: capitalize;
 }
 
 .navbar li:hover{
     font-size: 14px;
-    color: rgb(87, 63, 190);
+    color: #7050e2;
     transition: ease-in-out 0.3s;
     text-decoration: line-through;
+    
 }
 
 .navbar header{
