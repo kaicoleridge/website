@@ -1,0 +1,25 @@
+.pageContainer{
+    text-align: left; 
+    width: 60rem; 
+    margin: 5rem auto
+}
+
+.pageContainer h1{
+    font-size: 3.2rem;
+}
+
+.pageContainer span{
+    color: rgb(143, 150, 150);
+    display: flex;
+    margin-top: -2.5rem;
+    font-size: 1rem;
+    animation: pulse 2s infinite;
+}
+
+.pageContainer p{
+    font-size: 1em;
+}
+.pageContents{
+    font-family: 'Poppins', sans-serif;
+}
+
