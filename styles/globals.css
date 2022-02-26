@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto+Mono&family=Roboto+Slab:wght@700&display=swap');
 html,
 body {
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right,  #4A00E0, #8E2DE2) 1;
   scroll-behavior: smooth;
   color: rgb(255, 255, 255);
   background: rgb(5, 5, 15);
@@ -23,3 +26,4 @@ a {
   color: wheat;
   background: #7050e2;
 }
+

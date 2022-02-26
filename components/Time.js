@@ -7,18 +7,18 @@ function Time(){
     const [timeState, setTimeState] = useState();
 
 
-    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-console.log(tz);
+    const timeZoneState = Intl.DateTimeFormat().resolvedOptions().timeZone;
+console.log(timeZoneState);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setTimeState(new Date().toLocaleTimeString([], { hour24: false}));
+            setTimeState(new Date().toLocaleTimeString([], { hour24: false}),{});
         }, 1000);
         return () => clearInterval(interval);
     }, []);
     
 
-    return(<div className={styles.TimeState}>{timeState} {tz}</div>);
+    return(<div className={styles.TimeState}>{timeState} GMT</div>);
 }
 
 export default Time;
