@@ -16,9 +16,12 @@ const Navbar = () => {
                  <a href='/projects'>
                  <li>projects</li>
                  </a>
-                 <a href='/Old CV.pdf' download={"Old CV.pdf"}>
+                 <a href='/KaiColeridge_CV.pdf' download={"KaiColeridge_CV.pdf"}>
                  <li>resume</li>
                  </a>
+                 <a href='/stats'>
+                 <li>stats</li>
+                 </a> 
                  <a href='mailto:kai@coleridge.me'>
                  <li>contact</li>
                  </a> 
