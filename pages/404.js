@@ -1,8 +1,6 @@
 import styles from '../styles/StatusCode.module.css'
 import Head from 'next/head'
 import { Router, useRouter } from 'next/router'
-import Script from 'next/script'
-import { route } from 'next/dist/server/router'
 
 export default function Custom404(){
   
@@ -16,7 +14,7 @@ export default function Custom404(){
             </Head>
             <h1><i class="fa fa-exclamation-circle"></i > 404 - Not found!</h1>
             
-            <h3>Looks like you're lost in an error code!</h3>
+            <h3>Who turned off the lights?</h3>
             <h4>The page you were looking for doesn't exist.</h4>
 
             <a onClick={() => router.back()}>
