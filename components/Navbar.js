@@ -18,7 +18,7 @@ const Navbar = () => {
                  <a>projects</a>
                  </Link>
 
-                 <Link href='/KaiColeridge_CV.pdf' download={"KaiColeridge_CV.pdf"}>
+                 <Link href="/">
                  <a>resume</a>
                  </Link>
 
