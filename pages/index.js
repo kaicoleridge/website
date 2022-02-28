@@ -14,46 +14,46 @@ export default function Home() {
      </Head>
      <div className={styles.main}>
        <div className={styles.name}>
-         <h4>Hi there I'm ✌️</h4>
+         <h4>Hi there I'm, ✌️</h4>
          <h1>Kai Coleridge.</h1>
         <h3>20yr old iOS/Web Developer & CS Student. </h3>
         </div>
 
          <div className={styles.icons}>
          <li>
-         <i class="fa fa-clock-o" aria-hidden="true"></i>
+         <i className="fa fa-clock-o" aria-hidden="true"></i>
          <TimeComponent/>
          </li>
         <br></br>
         <br></br>
            <li>
              <a href="https://twitter.com/kaicoleridge">
-           <i class="fa fa-twitter"></i>
+           <i className="fa fa-twitter"></i>
            </a>
            </li>
            <li>
              <a href='https://github.com/kaicoleridge'>
-             <i class="fa fa-github"></i>
+             <i className="fa fa-github"></i>
              </a>
            </li>
            <li>
              <a href="https://linkedin.com/in/kaicoleridge">
-             <i class="fa fa-linkedin"></i>
+             <i className="fa fa-linkedin"></i>
              </a>
            </li>
            <li>
              <a href='https://instagram.com/kaicoleridge'>
-             <i class="fa fa-instagram"></i>
+             <i className="fa fa-instagram"></i>
              </a>
            </li>
            <li>
              <a href='https://open.spotify.com/user/phjdi967haciotxt687u349nn?si=65ce5a84eacd4723&nd=1'>
-           <i class="fa fa-spotify"></i>
+           <i className="fa fa-spotify"></i>
            </a>
            </li>
            <li>
              <a href='mailto:kai@coleridge.me'>
-             <i class="fa fa-envelope"></i>
+             <i className="fa fa-envelope"></i>
              </a>
            </li>
            </div>

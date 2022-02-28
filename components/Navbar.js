@@ -1,4 +1,5 @@
 import navStyle from '../styles/Navbar.module.css'
+import Link from 'next/link';
 
 const Navbar = () => {
     return(
@@ -10,21 +11,24 @@ const Navbar = () => {
             </a>
          <nav>
              <ul>
-                 <a href='/about'>
-                 <li>about</li>
-                 </a>
-                 <a href='/projects'>
-                 <li>projects</li>
-                 </a>
-                 <a href='/KaiColeridge_CV.pdf' download={"KaiColeridge_CV.pdf"}>
-                 <li>resume</li>
-                 </a>
-                 <a href='/stats'>
-                 <li>stats</li>
-                 </a> 
-                 <a href='mailto:kai@coleridge.me'>
-                 <li>contact</li>
-                 </a> 
+                 <Link href="/about">
+                 <a>about</a>
+                 </Link>
+                 <Link href="/">
+                 <a>projects</a>
+                 </Link>
+
+                 <Link href='/KaiColeridge_CV.pdf' download={"KaiColeridge_CV.pdf"}>
+                 <a>resume</a>
+                 </Link>
+
+                 <Link href='/stats'>
+                 <a>stats</a>
+                 </Link> 
+
+                 <Link href='mailto:kai@coleridge.me'>
+                 <a>contact</a>
+                 </Link> 
              </ul>
          </nav>
          </header>

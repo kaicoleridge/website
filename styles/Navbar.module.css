@@ -6,7 +6,7 @@
     
 }
 
-.navbar li{
+.navbar a{
     font-size: 12px;
     list-style: none;
     display: inline-block;
@@ -14,7 +14,7 @@
     color: white;;
 }
 
-.navbar li:hover{
+.navbar a:hover{
     color: #7050e2;
     transition: ease-in-out 0.3s;
 }
