@@ -6,9 +6,9 @@ const Navbar = () => {
         <div className={navStyle.navbar}>
             
             <header>
-                <a href={'/'}>
+                <Link href="/">
             <h3>KAI</h3>
-            </a>
+            </Link>
          <nav>
              <ul>
                  <Link href="/about">
