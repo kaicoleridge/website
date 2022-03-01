@@ -3,17 +3,17 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
     return (
         <>
-        <Banner/>
-        <Navbar/>
-        <div className={styles.container}>
-            <main className={styles.main}>
-                {children}
+            <Banner />
+            <Navbar />
+            <div className={styles.container}>
+                <main className={styles.main}>
+                    {children}
                 </main>
 
-        </div>
+            </div>
         </>
     )
 }
