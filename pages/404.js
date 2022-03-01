@@ -8,6 +8,7 @@ export default function Custom404(){
         return(
         <div className={styles.container}>
             <Head>
+                <title>404 - Page not found</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             </Head>
             <h1><i className="fa-circle-exclamation"></i>404 - Page not found</h1>

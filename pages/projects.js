@@ -2,6 +2,9 @@ import style from '../styles/Layout.module.css'
 export default function Projects() {
   return (
     <div className={style.pageContainer}>
+      <Head>
+        <title>Projects - Kai Coleridge</title>
+      </Head>
       <div className={style.pageContents}>
         <h1>Projects</h1>
 
