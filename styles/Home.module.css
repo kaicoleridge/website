@@ -45,7 +45,7 @@
   font-family: 'Poppins', sans-serif;
   color: rgb(255, 255, 255);
   display: inline-block;
-  font-size: 22px;
+  font-size: 20px;
   margin-left: 1.1rem;
   font-weight: 400;
 }
@@ -62,13 +62,13 @@
   transition: ease-in-out 0.3s;
 }
 
+
 @media only screen and (max-width: 600px) {
   .container {
-    margin-top: -6rem
+    margin: 0% 0% 0% 0%;
   }
   .name h1{
     font-size: 4rem;
-    word-wrap: no-wrap;
   }
   .name h4{
     font-size: 20px;

@@ -26,8 +26,13 @@ export default function Projects() {
 
 
             <h2>📝 NoteThat</h2>
-            <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API to retrieve all data that is displayed on the site.
-
+            <p>NoteThat is a note taking task web application with the ability to create tasks and delte and mark as complete when done.
+              I've added various features to this web application that makes it more fun to use when creating tasks, such as the ability to
+              listen to soft lofi beat music in the background.
+              <br></br>
+              <br></br>
+              I decided to build this project to expand my knowledge and improve my UI skills, and have learnt a lot for a web app with
+              this simplistic functionality.
               <br></br>
               <br></br>
               <a href='https://notethat.coleridge.me'>

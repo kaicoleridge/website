@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import TimeComponent from '../components/Time.js'
+import ReactTooltip from 'react-tooltip';
 
 
 export default function Home() {
@@ -29,36 +30,42 @@ export default function Home() {
         <br></br>
            <li>
              <a href="https://twitter.com/kaicoleridge">
-           <i className="fa fa-twitter"></i>
+           <i data-tip="Twitter" className="fa fa-twitter"></i>
            </a>
            </li>
            <li>
              <a href='https://github.com/kaicoleridge'>
-             <i className="fa fa-github"></i>
+             <i data-tip="GitHub" className="fa fa-github"></i>
              </a>
            </li>
            <li>
              <a href="https://linkedin.com/in/kaicoleridge">
-             <i className="fa fa-linkedin"></i>
+             <i  data-tip="Linkedin" className="fa fa-linkedin"></i>
              </a>
            </li>
            <li>
              <a href='https://instagram.com/kaicoleridge'>
-             <i className="fa fa-instagram"></i>
+             <i data-tip="Instagram" className="fa fa-instagram"></i>
              </a>
            </li>
            <li>
              <a href='https://open.spotify.com/user/phjdi967haciotxt687u349nn?si=65ce5a84eacd4723&nd=1'>
-           <i className="fa fa-spotify"></i>
+           <i data-tip="Spotify" className="fa fa-spotify"></i>
            </a>
            </li>
            <li>
              <a href='mailto:kai@coleridge.me'>
-             <i className="fa fa-envelope"></i>
+             <i data-tip="Email" className="fa fa-envelope"></i>
              </a>
            </li>
            </div>
      </div>
+     <ReactTooltip />
+     <ReactTooltip />
+     <ReactTooltip />
+     <ReactTooltip />
+     <ReactTooltip />
+     
      
      </div>
   );

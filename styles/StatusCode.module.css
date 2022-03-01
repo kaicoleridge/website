@@ -1,55 +1,67 @@
-.container{
-  background: rgb(9, 9, 19);
+.container {
+  background: rgb(13, 13, 22);
   font-family: 'Montserrat', sans-serif;
-    margin: 8% 20%;
-    padding: 50px;
-    border-radius: 1rem;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 1;
+  margin: 8% 20%;
+  padding: 50px;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1;
 }
 
-.container h1{
+.container h1 {
   font-family: 'Poppins', sans-serif;
-    font-size: 70px;
-    margin-bottom:  0rem;
+  font-size: 50px;
 }
 
 
-.container h3{
+.container h3 {
   font-size: 25px;
 }
 
-.container button{
-    background: none;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    border-radius: 0.5rem;
-    color: rgb(255, 255, 255);
-    border-style: none;
-    padding: 20px;
-    width: 150px;
-    margin-top: 2rem;
-  }
+.container button {
+  background: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  color: rgb(255, 255, 255);
+  border-style: none;
+  padding: 20px;
+  width: 150px;
+  margin-top: 2rem;
+}
 
-.container i{
-  background: #8E2DE2;  /* fallback for old browsers */
+.container i {
+  background: #8E2DE2;
+  /* fallback for old browsers */
   background: linear-gradient(to right, #4A00E0, #8E2DE2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#back-btn button{
+#back-btn button {
   color: white;
 }
-  
-  .container button:hover{
-    background: rgb(17, 17, 24);
-    color: rgb(255, 255, 255);
-    border-color: white;
-    font-weight: bolder;
-    transition: ease-in-out 0.3s;
 
+.container button:hover {
+  background: rgb(17, 17, 24);
+  color: rgb(179, 164, 164);
+  border-color: white;
+  font-weight: bolder;
+  transition: ease-in-out 0.3s;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0% 0% 0% 0%;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+    padding: 60px;
+    width: 100%;
   }
 
- 
+  .container h1{
+    font-size: 3rem;
+  }
+}

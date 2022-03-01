@@ -9,3 +9,8 @@
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .banner p{
+       width: 120%;
+    }
+   }

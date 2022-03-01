@@ -10,7 +10,7 @@
     font-family: 'Krona One', sans-serif;
     border: none;
     border-radius: 10px;
-    width: 35%;
+    width: auto;
     padding: 20px;
     font-weight: 600;
     font-size: 14px;
@@ -20,7 +20,7 @@
 
 .pageContainer p{
     font-size: 15.5px;
-    width: 80%;
+    width: 83%;
     color: rgb(157, 154, 152);
 }
 
@@ -52,6 +52,8 @@
     border-width: 10px;
     transition: all ease-in-out 0.3s;
 }
+
+
 
 
 
