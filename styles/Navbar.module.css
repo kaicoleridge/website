@@ -41,16 +41,18 @@
        width: auto;
        height: auto;
        border-radius: 10px;
-       margin: 0rem;
+       margin: 0;
    }
  
     .navbar a{
-      font-size: 10px;
+      font-size: 11px;
       display: inline;
-      margin: 5.5px;
+      padding-left: -3px;
+      margin: 5px;
    }
 
    .navbar h3{
+       font-size: 22px;
        display: flex;
        margin-top: 0.5rem;
    }

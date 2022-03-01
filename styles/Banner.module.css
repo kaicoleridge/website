@@ -12,5 +12,6 @@
 @media only screen and (max-width: 600px) {
     .banner p{
        width: 100%;
+       padding: 10px;
     }
    }
