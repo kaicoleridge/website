@@ -6,10 +6,11 @@ learn a little more about myself.
 
 ### Website Features 📘
 - Built with React & NextJS ⚒️
-- Hosted on Vercel
+- Cloudflare Protection ☁️
+- Hosted on Vercel ▲
 - Live Realtime API Data across my socials 📱
 - Spotify Status Component 🎧
 
 You can view my website here > <a href="https://coleridge.me">coleridge.me</a>
-### (In process of updating website temporarily unavaliable)
+
 
