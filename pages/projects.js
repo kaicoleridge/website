@@ -12,7 +12,7 @@ export default function Projects() {
             <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI. MovieNow is built with React, Redux, and Styled Components.
               <br></br>
               <br></br>
-              I'm currently working on porting the app over to React and Mobile.
+              I&apos;m currently working on porting the app over to React and Mobile.
               <br></br>
               <br></br>
               <button className="cming-sn">Coming Soon</button>
@@ -27,7 +27,7 @@ export default function Projects() {
 
             <h2>📝 NoteThat</h2>
             <p>NoteThat is a note taking task web application with the ability to create tasks and delte and mark as complete when done.
-              I've added various features to this web application that makes it more fun to use when creating tasks, such as the ability to
+              I&apos;ve added various features to this web application that makes it more fun to use when creating tasks, such as the ability to
               listen to soft lofi beat music in the background.
               <br></br>
               <br></br>
