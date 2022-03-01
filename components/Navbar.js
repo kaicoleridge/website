@@ -1,9 +1,9 @@
 import navStyle from '../styles/Navbar.module.css'
 import Link from 'next/link';
-import ReactTooltip from 'react-tooltip';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'
+import ReactTooltip from 'react-tooltip';
 
 const Navbar = () => {
     useEffect(() => {
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <nav>
                     <ul>
                         <Link href="/">
-                            <a data-tip-="Coming Soon">about</a>
+                            <a data-tip="Coming Soon" >about</a>
 
                         </Link>
                         <Link href="/projects">
