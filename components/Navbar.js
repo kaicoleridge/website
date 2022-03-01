@@ -1,13 +1,18 @@
 import navStyle from '../styles/Navbar.module.css'
 import Link from 'next/link';
 import ReactTooltip from 'react-tooltip';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 
 const Navbar = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000});
+      }, []);
     return(
-        <div className={navStyle.navbar}>
+        <div data-aos="fade-right" className={navStyle.navbar}>
             
             <header>
-            
                 <Link href="/">
             <h3>KAI</h3>
             </Link>

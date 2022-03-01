@@ -34,6 +34,7 @@ export default function Projects() {
               <img src='movienow_thumb.png' alt='movienow_thumb' width={"50%"}></img>
             </a>
 
+            <div data-aos="fade-up" className='noteThat'>
             <h2>📝 NoteThat</h2>
             <p>NoteThat is a note taking task web application with the ability to create tasks and delte and mark as complete when done.
               I&apos;ve added various features to this web application that makes it more fun to use when creating tasks, such as the ability to
@@ -54,7 +55,8 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <h3>More Coming Soon...</h3>
+      </div>
+      <h3 data-aos="fade-up">More Coming Soon...</h3>
     </div>
   );
 }
