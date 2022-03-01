@@ -3,7 +3,7 @@ html,
 body {
   scroll-behavior: smooth;
   color: rgb(255, 255, 255);
-  background: rgb(5, 5, 15);
+  background: rgb(8, 8, 17);
   padding: 0;
   margin: 0;
  /* border-width: 5px;
@@ -23,6 +23,12 @@ a {
 * {
   box-sizing: border-box;
   
+}
+
+hr{
+  height: 3px;
+  background-color: rgb(80, 79, 80);
+  border: none;
 }
 
 ::selection{
