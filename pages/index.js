@@ -14,15 +14,12 @@ export default function Home() {
     Aos.init({duration: 2000});
   }, []);
   return (
-    
-   <div data-aos="fade-up" className={styles.container}>
+   <div className={styles.container}>
      <Head>
      <title>Kai Coleridge</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
      </Head>
-
-     
-     <div className={styles.main}>
+     <div data-aos="fade-up" className={styles.main}>
        <div className={styles.name}>
          <h4>Hi there I&apos;m, ✌️</h4>
          <h1>Kai Coleridge.</h1>

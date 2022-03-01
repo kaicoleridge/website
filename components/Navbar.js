@@ -10,9 +10,10 @@ const Navbar = () => {
         Aos.init({duration: 2000});
       }, []);
     return(
-        <div data-aos="fade-right" className={navStyle.navbar}>
+        <div data-aos="fade-up" className={navStyle.navbar}>
             
             <header>
+            
                 <Link href="/">
             <h3>KAI</h3>
             </Link>

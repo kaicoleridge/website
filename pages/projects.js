@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
       </div>
       </div>
-      <h3 data-aos="fade-up">More Coming Soon...</h3>
+      <h3>More Coming Soon...</h3>
     </div>
   );
 }
