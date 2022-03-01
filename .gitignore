@@ -34,4 +34,5 @@ yarn-error.log*
 # vercel
 .vercel
 
-.KaiColeridge_CV-website.pdf
+# PDFs
+.pdf
