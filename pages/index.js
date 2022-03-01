@@ -22,7 +22,7 @@ export default function Home() {
      <div data-aos="fade-up" className={styles.main}>
        <div className={styles.name}>
          <h4>Hi there I&apos;m, ✌️</h4>
-         <h1>Kai Coleridge.</h1>
+         <h1>Kai Coleridge</h1>
         <h3>20yr old iOS/Web Developer & CS Student. </h3>
         </div>
 
