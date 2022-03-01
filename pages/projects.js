@@ -19,10 +19,16 @@ export default function Projects() {
           <div className="flex-items">
             <h2>🎥 MovieNow</h2>
 
-            <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI. MovieNow is built with React, Redux, and Styled Components.
+            <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI. 
               <br></br>
               <br></br>
-              I&apos;m currently working on porting the app over to React and Mobile.
+              Users have the ability to search for movies and
+              TV Shows to find out statisical data from their query such as ratings, release dates, runtime and much much more!
+            <br></br>
+            <br></br>
+            MovieNow is built with modern framework technologies such as React, Redux, and Styled Components.
+            I&apos;m currently working on porting the app over to React and Mobile.
+              <br></br>
               <br></br>
               <br></br>
               <button className="cming-sn">Coming Soon</button>
