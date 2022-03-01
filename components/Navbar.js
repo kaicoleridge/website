@@ -14,17 +14,13 @@ const Navbar = () => {
                  <Link href="/about">
                  <a>about</a>
                  </Link>
-                 <Link href="/">
+                 <Link href="/projects">
                  <a>projects</a>
                  </Link>
 
                  <Link href="/">
                  <a>resume</a>
                  </Link>
-
-                 <Link href='/stats'>
-                 <a>stats</a>
-                 </Link> 
 
                  <Link href='mailto:kai@coleridge.me'>
                  <a>contact</a>

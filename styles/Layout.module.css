@@ -1,7 +1,27 @@
 .pageContainer{
+    font-family: 'Poppins', sans-serif;
     text-align: left; 
-    width: 60rem; 
-    margin: 5rem auto
+    width: 60%; 
+    margin: 5rem auto;
+    height: auto;
+}
+
+.pageContainer button{
+    font-family: 'Krona One', sans-serif;
+    border: none;
+    border-radius: 10px;
+    width: 35%;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgb(93, 62, 232);
+    color: white;
+}
+
+.pageContainer p{
+    font-size: 15.5px;
+    width: 80%;
+    color: rgb(157, 154, 152);
 }
 
 .pageContainer h1{
@@ -16,10 +36,48 @@
     animation: pulse 2s infinite;
 }
 
-.pageContainer p{
-    font-size: 1em;
+.pageContainer img
+{
+   display: inline-block;
+   flex-direction: column;
+   width: 100%;
+   margin-bottom: 5rem;
+   margin-top: 2rem;
 }
-.pageContents{
-    font-family: 'Poppins', sans-serif;
+
+.pageContainer img:hover
+{
+    border: solid;
+    border-color: rgb(53, 4, 169);
+    border-width: 10px;
+    transition: all ease-in-out 0.3s;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .pageContainer {
+        margin-top: 5rem;
+        width: 80%;
+        padding-bottom: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    .pageContainer p{
+        width: 100%;
+    }
+
+    .pageContainer h1{
+        font-size: 35px;
+    }
+
+    .pageContainer img{
+       width: 100%;
+    }
+
+    .pageContainer button{
+        width: 100%;
+    }
+  }
 

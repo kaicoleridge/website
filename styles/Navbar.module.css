@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
-    
 }
 
 .navbar a{
@@ -29,3 +27,21 @@
     font-size: 1.1rem;
 }
 
+@media only screen and (max-width: 600px) {
+   .navbar *{
+       background-color: #12121d;
+       width: auto;
+       border-radius: 15px;
+       margin: 1rem;
+   }
+   
+    .navbar a{
+       display: none;
+   }
+
+   .navbar h3{
+       display: flex;
+       margin-top: 0.5rem;
+   }
+  }
+  

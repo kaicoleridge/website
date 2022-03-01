@@ -14,15 +14,16 @@ export default function Home() {
      </Head>
      <div className={styles.main}>
        <div className={styles.name}>
-         <h4>Hi there I&aposm, ✌️</h4>
+         <h4>Hi there I'm, ✌️</h4>
          <h1>Kai Coleridge.</h1>
         <h3>20yr old iOS/Web Developer & CS Student. </h3>
         </div>
 
+        <i className="fa fa-clock-o" aria-hidden="true"></i>
+         <TimeComponent/>
          <div className={styles.icons}>
          <li>
-         <i className="fa fa-clock-o" aria-hidden="true"></i>
-         <TimeComponent/>
+        
          </li>
         <br></br>
         <br></br>

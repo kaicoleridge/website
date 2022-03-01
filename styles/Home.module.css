@@ -18,7 +18,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bolder;
-  font-size: 7rem;
+  font-size: 6rem;
   letter-spacing: -0.5rem;
   margin:  0% 0% 6% -1%;
   text-transform: uppercase;
@@ -38,7 +38,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 
 .TimeState{
@@ -60,5 +60,30 @@
 .icons a:hover{
   color: #7050e2;
   transition: ease-in-out 0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: -6rem
+  }
+  .name h1{
+    font-size: 4rem;
+    word-wrap: no-wrap;
+  }
+  .name h4{
+    font-size: 20px;
+  }
+  .name h3{
+    font-size: 15px;
+    margin-top: -1rem;
+  }
+  .TimeState{
+    font-size: 18px;
+  }
+  .icons li{
+    margin-top: -2rem;
+    letter-spacing: 1rem;
+    font-size: 25px;
+  }
 }
 
