@@ -1,17 +1,19 @@
 import style from '../styles/Layout.module.css'
+import Head from 'next/head'
+
 export default function Projects() {
   return (
+    
     <div className={style.pageContainer}>
-      <Head>
-        <title>Projects - Kai Coleridge</title>
-      </Head>
+       <Head>
+            <title>Projects - Kai Coleridge</title>
+            </Head>
       <div className={style.pageContents}>
         <h1>Projects</h1>
-
-
         <div className="projects">
           <div className="flex-items">
             <h2>🎥 MovieNow</h2>
+           
             <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI. MovieNow is built with React, Redux, and Styled Components.
               <br></br>
               <br></br>
@@ -26,7 +28,6 @@ export default function Projects() {
             <a href='https://github.com/kaicoleridge/movienow'>
               <img src='movienow_thumb.png' alt='movienow_thumb' width={"50%"}></img>
             </a>
-
 
             <h2>📝 NoteThat</h2>
             <p>NoteThat is a note taking task web application with the ability to create tasks and delte and mark as complete when done.
