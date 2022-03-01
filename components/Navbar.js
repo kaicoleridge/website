@@ -14,7 +14,7 @@ const Navbar = () => {
          <nav>
              <ul>
                  <Link href="/">
-                 <a>about</a>
+                 <a data-tip-="Coming Soon">about</a>
                  
                  </Link>
                  <Link href="/projects">
@@ -31,6 +31,7 @@ const Navbar = () => {
              </ul>
          </nav>
          </header>
+         <ReactTooltip/>
    
 
             </div>
