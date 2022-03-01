@@ -7,7 +7,7 @@ learn a little more about myself.
 ### Website Features 📘
 - Built with React & NextJS ⚒️
 - Cloudflare Protection ☁️
-- Hosted on Vercel
+- Hosted on Vercel ▲
 - Live Realtime API Data across my socials 📱
 - Spotify Status Component 🎧
 
