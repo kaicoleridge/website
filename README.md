@@ -11,5 +11,5 @@ learn a little more about myself.
 - Spotify Status Component 🎧
 
 You can view my website here > <a href="https://coleridge.me">coleridge.me</a>
-### (In process of updating website temporarily unavaliable)
+
 
