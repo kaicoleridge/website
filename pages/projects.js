@@ -26,7 +26,7 @@ export default function Projects() {
               <br></br>
               <br></br>
               Users have the ability to search for movies and
-              TV Shows to find out statisical data from their query such as ratings, release dates, runtime and much much more!
+              TV Shows to find obtain statistical data from their query such as ratings, release dates, total runtime and much much more!
               <br></br>
               <br></br>
               MovieNow is built with modern framework technologies such as React, Redux, and Styled Components.
@@ -47,13 +47,13 @@ export default function Projects() {
                 <img src='notethat_thumb.png' alt='notethat_thumb' width={"50%"}></img>
               </a>
               <h2>📝 NoteThat</h2>
-              <p>NoteThat is a note taking task web application with the ability to create tasks and delete and mark as complete when completed.
-                I&apos;ve added various features to this web application that makes it more fun to use when creating tasks, such as the ability to
-                listen to soft lofi beats music in the background.
+              <p>NoteThat is a note taking task web application with the ability to create tasks and delete when tasks are completed.
+                I&apos;ve added various features to this web application that makes it a more fun and intuitive to use when creating tasks, such as the auto playing 
+                background lofi beat music whilst the user creates tasks. 
                 <br></br>
                 <br></br>
-                I decided to build this project to expand my knowledge and improve my UI skills, and have learnt a lot for a web app with
-                this simplistic functionality. I will be adding the ability to save to Local Storage soon.
+                I decided to build this project to expand my knowledge and improve my UI skills, and have learnt a lot for a web app that is
+                so simplistic. I will be adding the ability to save to Local Storage soon.
                 <br></br>
                 <br></br>
                 <br></br>
