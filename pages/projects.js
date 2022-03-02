@@ -12,6 +12,7 @@ export default function Projects() {
     <div data-aos="fade-up" className={style.pageContainer}>
       <Head>
         <title>Projects - Kai Coleridge</title>
+        <meta name="theme-color" content="#430ac2"/>
       </Head>
       <div className={style.pageContents}>
         <h1>Projects</h1>
