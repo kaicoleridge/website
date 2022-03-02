@@ -18,6 +18,7 @@ export default function Home() {
       <Head>
         <title>Kai Coleridge</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <meta name="description" content=" ">
       </Head>
       <div data-aos="fade-up" className={styles.main}>
         <div className={styles.name}>
