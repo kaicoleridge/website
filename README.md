@@ -9,7 +9,7 @@ learn a little more about myself.
 - Cloudflare Protection ☁️
 - Hosted on Vercel ▲
 - Live Realtime API Data across my socials 📱
-- Spotify Status Component 🎧
+- Spotify Hook Status Component 🎧
 
 You can view my website here > <a href="https://coleridge.me">coleridge.me</a>
 
