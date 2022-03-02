@@ -17,30 +17,34 @@ export default function Projects() {
         <h1>Projects</h1>
         <div className="projects">
           <div className="flex-items">
-            <h2>🎥 MovieNow</h2>
-
-            <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI. 
+            <a href='https://github.com/kaicoleridge/movienow'>
+              <img src='movienow_thumb.png' alt='movienow_thumb' width={"50%"}></img>
+            </a>
+            <h2>🎥  MOVIENOW</h2>
+            <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI.
               <br></br>
               <br></br>
               Users have the ability to search for movies and
               TV Shows to find out statisical data from their query such as ratings, release dates, runtime and much much more!
-            <br></br>
-            <br></br>
-            MovieNow is built with modern framework technologies such as React, Redux, and Styled Components.
-            I&apos;m currently working on porting the app over to React and Mobile.
               <br></br>
               <br></br>
-              <br></br>
-              <button className="cming-sn">Coming Soon</button>
+              MovieNow is built with modern framework technologies such as React, Redux, and Styled Components.
+              I&apos;m currently working on porting the app over to React and Mobile.
               <br></br>
               <br></br>
               <h3>🔗 URL - <a href='https://movienow.coleridge.me'>MovieNow (Click me)</a></h3>
+              <button className="cming-sn">Coming Soon</button>
+
+              <br></br>
+              <br></br>
+
             </p>
-            <a href='https://github.com/kaicoleridge/movienow'>
-              <img src='movienow_thumb.png' alt='movienow_thumb' width={"50%"}></img>
-            </a>
+
 
             <div data-aos="fade-up" className='noteThat'>
+              <a href='https://github.com/kaicoleridge/notethat'>
+                <img src='notethat_thumb.png' alt='notethat_thumb' width={"50%"}></img>
+              </a>
               <h2>📝 NoteThat</h2>
               <p>NoteThat is a note taking task web application with the ability to create tasks and delete and mark as complete when completed.
                 I&apos;ve added various features to this web application that makes it more fun to use when creating tasks, such as the ability to
@@ -51,17 +55,17 @@ export default function Projects() {
                 this simplistic functionality. I will be adding the ability to save to Local Storage soon.
                 <br></br>
                 <br></br>
-                <a href='https://notethat.coleridge.me'>
+                <br></br>
+                <h3>🔗 URL - <a href='https://notethat.coleridge.me'>NoteThat(Click me)</a></h3>
                   <button className='avaliable'>Available now</button>
-                </a>
+                  <br></br>
               </p>
-              <a href='https://github.com/kaicoleridge/notethat'>
-                <img src='notethat_thumb.png' alt='notethat_thumb' width={"50%"}></img>
-              </a>
             </div>
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
       <h3>More Coming Soon...</h3>
     </div>
   );

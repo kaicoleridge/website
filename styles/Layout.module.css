@@ -18,6 +18,8 @@
     color: white;
 }
 
+
+
 .pageContainer p{
     font-size: 15.5px;
     width: 83%;
@@ -53,6 +55,9 @@
     transition: all ease-in-out 0.3s;
 }
 
+.flexitems:hover img{
+    border: navajowhite;
+}
 
 
 
