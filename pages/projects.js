@@ -58,7 +58,7 @@ export default function Projects() {
                 <br></br>
                 <br></br>
                 <h3>🔗 URL - <a href='https://notethat.coleridge.me'>NoteThat (Click me)</a></h3>
-                  <button className='avaliable'>Available now</button>
+                   <button className="cming-sn">Coming Soon</button>
                   <br></br>
               </p>
             </div>
