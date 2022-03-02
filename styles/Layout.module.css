@@ -80,7 +80,8 @@
     }
 
     .pageContainer img{
-       width: 110%;
+       margin: 0rem;
+       width: 100%;
     }
 
     .pageContainer button{
