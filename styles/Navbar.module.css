@@ -45,14 +45,14 @@
    }
  
     .navbar a{
-      font-size: 11px;
+      font-size: 10px;
       display: inline;
-      padding-left: -3px;
-      margin: 5px;
+      padding-right: 0px;
+      margin: -2px;
    }
 
    .navbar h3{
-       font-size: 22px;
+       font-size: 20px;
        display: flex;
        margin-top: 0.5rem;
    }
