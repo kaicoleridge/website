@@ -69,22 +69,22 @@
   }
   .name h1{
     margin-top: 0.7rem;
-    font-size: 3.32rem;
+    font-size: 4rem;
   }
   .name h4{
-    font-size: 20px;
+    font-size: 1.3rem;
   }
   .name h3{
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: -1rem;
   }
   .TimeState{
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   .icons li{
     margin-top: -2rem;
     letter-spacing: 1rem;
-    font-size: 25px;
+    font-size: 1.3rem;
   }
 }
 
