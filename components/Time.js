@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from '../styles/Home.module.css'
-import { render } from 'react-dom';
 
 function Time() {
     const [timeState, setTimeState] = useState();
