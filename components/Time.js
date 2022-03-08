@@ -7,7 +7,6 @@ function Time() {
     const [timeState, setTimeState] = useState();
 
     const timeZoneState = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    console.log(timeZoneState);
 
     useEffect(() => {
         const interval = setInterval(() => {
