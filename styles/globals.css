@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@700&family=Poppins:wght@500&family=Roboto+Mono&family=Roboto+Slab:wght@700&display=swap');
 html,
 body {
+  overflow:hidden;
   text-rendering: optimizeLegibility !important;
   scroll-behavior: smooth;
   color: rgb(255, 255, 255);
