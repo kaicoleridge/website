@@ -50,6 +50,7 @@
 .pageContainer img:hover
 {
     box-shadow: -30px 20px #6563f2;
+    margin-left: 1rem;
     transition: all ease-in-out 0.3s;
 }
 
