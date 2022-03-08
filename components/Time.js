@@ -6,13 +6,12 @@ import { render } from 'react-dom';
 function Time() {
     const [timeState, setTimeState] = useState();
 
-
     const timeZoneState = Intl.DateTimeFormat().resolvedOptions().timeZone;
     console.log(timeZoneState);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setTimeState(new Date().toLocaleTimeString([], { hour24: false }), {});
+            setTimeState(new Date().toLocaleTimeString([], { hour12: false }), {});
         }, 1000);
         return () => clearInterval(interval);
     }, []);

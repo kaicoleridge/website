@@ -9,7 +9,7 @@
     list-style: none;
     display: inline-block;
     margin: 1.3rem;
-    color: white;;
+    color: white;
 }
 
 .navbar a:hover{
@@ -45,10 +45,10 @@
    }
  
     .navbar a{
-      font-size: 10px;
+      font-size: 10.5px;
       display: inline;
       padding-right: 0px;
-      margin: 3px;
+      margin: 6px;
    }
 
    .navbar h3{
