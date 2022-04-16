@@ -8,8 +8,7 @@ learn a little more about myself.
 - Built with React & NextJS ⚒️
 - Cloudflare Protection ☁️
 - Hosted on Vercel ▲
-- Live Realtime API Data across my socials 📱
-- Spotify Hook Status Component 🎧
+- Spotify Hook Status Component 🎧 - **In Development**
 
 You can view my website here > <a href="https://coleridge.me">coleridge.me</a>
 
