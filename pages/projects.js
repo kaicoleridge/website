@@ -33,7 +33,7 @@ export default function Projects() {
               I&quot;m currently working on porting the app over to React and Mobile.
               <br></br>
               <br></br>
-              <h3>🔗 URL - <a href='https://movienow.coleridge.me'>MovieNow (Click me)</a></h3>
+              <h3>🔗 URL - <a href='https://movienow.coleridge.me'>MovieNow [Click me]</a></h3>
               <button className="cming-sn">Coming Soon</button>
 
               <br></br>
@@ -60,7 +60,7 @@ I chose to create VecTor as a little project because I wanted more control over 
                
                 <br></br>
                 <br></br>
-                <h3>🔗 URL - <a href='https://github.com/kaicoleridge/Vector'>NoteThat (Click me)</a></h3>
+                <h3>🔗 URL - <a href='https://github.com/kaicoleridge/Vector'>VecTor [Click me]</a></h3>
                 <button className="cming-sn">Early Beta</button>
                   <br></br>
               </p>
