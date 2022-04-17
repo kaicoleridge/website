@@ -42,6 +42,7 @@ export default function Projects() {
             </p>
 
 
+
             <div data-aos="fade-up" className='noteThat'>
               <a href='https://github.com/kaicoleridge/vector'>
                 <img src='vector.png' alt='vector_thumbnail' width={"50%"}></img>
@@ -52,14 +53,25 @@ export default function Projects() {
                 <br></br>
                 VecTor is a multi-purpose Discord Bot featuring a variety of commands and features designed to make Discord Servers more entertaining to control and administer. 
 
+<<<<<<< HEAD
                 <br></br>
+=======
+>>>>>>> bc7a12878da3b550b10dfac8e8e44dc1dc6a258a
                 <br></br>
 I chose to create VecTor as a little project because I wanted more control over bots on my Discord server, allowing me to incorporate functionalities specific to my server's needs that other bots may not provide. 
 
              
                
                 <br></br>
+I chose to create VecTor as a little project because I wanted more control over bots on my Discord server, allowing me to incorporate functionalities specific to my server's needs that other bots may not provide. 
+
+             
+               
                 <br></br>
+<<<<<<< HEAD
+=======
+                <br></br>
+>>>>>>> bc7a12878da3b550b10dfac8e8e44dc1dc6a258a
                 <h3>🔗 URL - <a href='https://github.com/kaicoleridge/Vector'>NoteThat (Click me)</a></h3>
                 <button className="cming-sn">Early Beta</button>
                   <br></br>
@@ -74,3 +86,4 @@ I chose to create VecTor as a little project because I wanted more control over 
     </div>
   );
 }
+
