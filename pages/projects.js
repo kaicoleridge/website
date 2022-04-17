@@ -47,10 +47,8 @@ export default function Projects() {
                 <img src='vector.png' alt='vector_thumbnail' width={"50%"}></img>
               </a>
               <h2>🤖 VecTor</h2>
-              <p>VecTor is a all in one multi purpose Discord Bot. VecTor has a broad range of features and commands to use within a Discord Server.
-                <br></br>
-                <br></br>
-                VecTor is a multi-purpose Discord Bot featuring a variety of commands and features designed to make Discord Servers more entertaining to control and administer. 
+         
+            VecTor is a multi-purpose Discord Bot featuring a variety of commands and features designed to make Discord Servers more entertaining to control and administer. 
 
                 <br></br>
                 <br></br>
