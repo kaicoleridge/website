@@ -30,7 +30,7 @@ export default function Projects() {
               <br></br>
               <br></br>
               MovieNow is built with modern framework technologies such as React, Redux, and Styled Components.
-              I&apos;m currently working on porting the app over to React and Mobile.
+              Im currently working on porting the app over to React and Mobile.
               <br></br>
               <br></br>
               <h3>🔗 URL - <a href='https://movienow.coleridge.me'>MovieNow (Click me)</a></h3>
