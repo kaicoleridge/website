@@ -48,7 +48,7 @@ export default function Projects() {
               </a>
               <h2>🤖 VecTor</h2>
          
-            VecTor is a multi-purpose Discord Bot featuring a variety of commands and features designed to make Discord Servers more entertaining to control and administer. 
+            <p>VecTor is a multi-purpose Discord Bot featuring a variety of commands and features designed to make Discord Servers more entertaining to control and administer. 
 
                 <br></br>
                 <br></br>
