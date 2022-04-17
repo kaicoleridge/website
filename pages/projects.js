@@ -19,7 +19,7 @@ export default function Projects() {
         <div className="projects">
           <div className="flex-items">
             <a href='https://github.com/kaicoleridge/movienow'>
-              <img src='movienow_thumb.png' alt='movienow_thumb' width={"50%"}></img>
+              <img src='movienow_thumb.png' alt='movienow_thumbnail' width={"50%"}></img>
             </a>
             <h2>🎥  MOVIENOW</h2>
             <p>MovieNow is a web app to browse the latest movies and TV Shows. MovieNow uses TMDB (The Movie DataBase) RESTful API provides the data and displays it in a clean and easy to use UI.
@@ -43,22 +43,25 @@ export default function Projects() {
 
 
             <div data-aos="fade-up" className='noteThat'>
-              <a href='https://github.com/kaicoleridge/notethat'>
-                <img src='notethat_thumb.png' alt='notethat_thumb' width={"50%"}></img>
+              <a href='https://github.com/kaicoleridge/vector'>
+                <img src='vector.png' alt='vector_thumbnail' width={"50%"}></img>
               </a>
-              <h2>📝 NoteThat</h2>
-              <p>NoteThat is a note taking task web application with the ability to create tasks and delete when tasks are completed.
-                I&apos;ve added various features to this web application that makes it a more fun and intuitive to use when creating tasks, such as the auto playing 
-                background lofi beat music whilst the user creates tasks. 
+              <h2>🤖 VecTor</h2>
+              <p>VecTor is a all in one multi purpose Discord Bot. VecTor has a broad range of features and commands to use within a Discord Server.
                 <br></br>
                 <br></br>
-                I decided to build this project to expand my knowledge and improve my UI skills, and have learnt a lot for a web app that is
-                so simplistic. I will be adding the ability to save to Local Storage soon.
+                VecTor is a multi-purpose Discord Bot featuring a variety of commands and features designed to make Discord Servers more entertaining to control and administer. 
+
                 <br></br>
                 <br></br>
+I chose to create VecTor as a little project because I wanted more control over bots on my Discord server, allowing me to incorporate functionalities specific to my server's needs that other bots may not provide. 
+
+             
+               
                 <br></br>
-                <h3>🔗 URL - <a href='https://notethat.coleridge.me'>NoteThat (Click me)</a></h3>
-                   <button className="cming-sn">Coming Soon</button>
+                <br></br>
+                <h3>🔗 URL - <a href='https://github.com/kaicoleridge/Vector'>NoteThat (Click me)</a></h3>
+                <button className="cming-sn">Early Beta</button>
                   <br></br>
               </p>
             </div>
@@ -67,7 +70,7 @@ export default function Projects() {
       </div>
       <br></br>
       <br></br>
-      <h3>More Coming Soon...</h3>
+      <hr></hr>
     </div>
   );
 }
