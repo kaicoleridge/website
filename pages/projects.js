@@ -54,7 +54,7 @@ export default function Projects() {
 
                 <br></br>
                 <br></br>
-I chose to create VecTor as a little project because I wanted more control over bots on my Discord server, allowing me to incorporate functionalities specific to my server's needs that other bots may not provide. 
+I chose to create VecTor as a little project because I wanted more control over bots on my Discord server, allowing me to incorporate functionalities specific to my server&quot;s needs that other bots may not provide. 
 
              
                
