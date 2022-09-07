@@ -10,6 +10,6 @@ learn a little more about myself.
 - Hosted on Vercel ▲
 - Spotify Hook Status Component 🎧 - **In Development**
 
-You can view my website here > <a href="https://coleridge.me">coleridge.me</a>
+You can view my website here > <a href="https://coleridge.dev">coleridge.dev</a>
 
 
