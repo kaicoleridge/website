@@ -28,8 +28,6 @@ export default function Home() {
           <h3>21yr old iOS/Web Developer & CS Student. </h3>
         </div>
 
-        <i className="fa fa-clock-o" aria-hidden="true"></i>
-        <TimeComponent />
         <div className={styles.icons}>
           <li>
 
