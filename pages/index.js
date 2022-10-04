@@ -60,7 +60,7 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a href='mailto:kai@coleridge.me'>
+            <a href='mailto:kai@coleridge.dev'>
               <i data-tip="Email" className="fa fa-envelope"></i>
             </a>
           </li>
