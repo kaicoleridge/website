@@ -28,10 +28,10 @@ const Navbar = () => {
                         </Link>
 
                         <Link href="/KaiColeridge_CV-website.pdf">
-                            <a>resume</a>
+                             <a data-tip="Coming Soon" >resume</a>
                         </Link>
 
-                        <Link href='mailto:kai@coleridge.me'>
+                        <Link href='mailto:kai@coleridge.dev'>
                             <a>contact</a>
                         </Link>
                     </ul>
