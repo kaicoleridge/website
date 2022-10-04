@@ -38,6 +38,7 @@ const Navbar = () => {
                 </nav>
             </header>
             <ReactTooltip />
+              <ReactTooltip />
 
 
         </div>
