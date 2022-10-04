@@ -27,7 +27,7 @@ const Navbar = () => {
                             <a>projects</a>
                         </Link>
 
-                        <Link href="/KaiColeridge_CV-website.pdf">
+                        <Link href="/">
                              <a data-tip="Coming Soon" >resume</a>
                         </Link>
 
