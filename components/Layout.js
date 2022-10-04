@@ -6,7 +6,6 @@ import Banner from '../components/Banner'
 const Layout = ({ children }) => {
     return (
         <>
-            <Banner />
             <Navbar />
             <div className={styles.container}>
                 <main className={styles.main}>
