@@ -11,6 +11,6 @@ learn a little more about myself.
 - Hosted on Vercel ▲
 (adding more stuff when I have time)
 
-You can view my website here > <a href="https://coleridge.dev">coleridge.dev</a>
+You can view my website [here](https://coleridge.dev)
 
 
