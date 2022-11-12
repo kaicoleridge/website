@@ -2,7 +2,7 @@
 
 ## Coleridge.dev
 
-My Personal Website is to showcase myself and my projects as another form of medium for people to find my projecst and 
+My personal website is to showcase myself and my projects as another form of medium for people to find my projecst and 
 learn a little more about myself. 
 
 ### Features 📘
