@@ -1,4 +1,4 @@
-![coleridge dev](https://user-images.githubusercontent.com/51129378/201498264-2c126bee-5d90-46fc-a58a-963a4f573f27.png)
+![coleridge dev](https://user-images.githubusercontent.com/51129378/201498294-16befa1d-2140-495e-bcde-622e8b6e3ead.png)
 
 ## Coleridge.dev
 
